@@ -1,0 +1,17 @@
+C:\Users\williams.x\Desktop\SilkyFlow\SilkyFlow\bin\Debug\net6.0-windows\SilkyFlow.exe
+C:\Users\williams.x\Desktop\SilkyFlow\SilkyFlow\bin\Debug\net6.0-windows\SilkyFlow.deps.json
+C:\Users\williams.x\Desktop\SilkyFlow\SilkyFlow\bin\Debug\net6.0-windows\SilkyFlow.runtimeconfig.json
+C:\Users\williams.x\Desktop\SilkyFlow\SilkyFlow\bin\Debug\net6.0-windows\SilkyFlow.dll
+C:\Users\williams.x\Desktop\SilkyFlow\SilkyFlow\bin\Debug\net6.0-windows\ref\SilkyFlow.dll
+C:\Users\williams.x\Desktop\SilkyFlow\SilkyFlow\bin\Debug\net6.0-windows\SilkyFlow.pdb
+C:\Users\williams.x\Desktop\SilkyFlow\SilkyFlow\obj\Debug\net6.0-windows\SilkyFlow.csproj.AssemblyReference.cache
+C:\Users\williams.x\Desktop\SilkyFlow\SilkyFlow\obj\Debug\net6.0-windows\SilkyFlow.Form1.resources
+C:\Users\williams.x\Desktop\SilkyFlow\SilkyFlow\obj\Debug\net6.0-windows\SilkyFlow.csproj.GenerateResource.cache
+C:\Users\williams.x\Desktop\SilkyFlow\SilkyFlow\obj\Debug\net6.0-windows\SilkyFlow.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\williams.x\Desktop\SilkyFlow\SilkyFlow\obj\Debug\net6.0-windows\SilkyFlow.AssemblyInfoInputs.cache
+C:\Users\williams.x\Desktop\SilkyFlow\SilkyFlow\obj\Debug\net6.0-windows\SilkyFlow.AssemblyInfo.cs
+C:\Users\williams.x\Desktop\SilkyFlow\SilkyFlow\obj\Debug\net6.0-windows\SilkyFlow.csproj.CoreCompileInputs.cache
+C:\Users\williams.x\Desktop\SilkyFlow\SilkyFlow\obj\Debug\net6.0-windows\SilkyFlow.dll
+C:\Users\williams.x\Desktop\SilkyFlow\SilkyFlow\obj\Debug\net6.0-windows\ref\SilkyFlow.dll
+C:\Users\williams.x\Desktop\SilkyFlow\SilkyFlow\obj\Debug\net6.0-windows\SilkyFlow.pdb
+C:\Users\williams.x\Desktop\SilkyFlow\SilkyFlow\obj\Debug\net6.0-windows\SilkyFlow.genruntimeconfig.cache
