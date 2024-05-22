@@ -15,3 +15,4 @@ C:\Users\williams.x\Desktop\SilkyFlow\SilkyFlow\obj\Debug\net6.0-windows\SilkyFl
 C:\Users\williams.x\Desktop\SilkyFlow\SilkyFlow\obj\Debug\net6.0-windows\ref\SilkyFlow.dll
 C:\Users\williams.x\Desktop\SilkyFlow\SilkyFlow\obj\Debug\net6.0-windows\SilkyFlow.pdb
 C:\Users\williams.x\Desktop\SilkyFlow\SilkyFlow\obj\Debug\net6.0-windows\SilkyFlow.genruntimeconfig.cache
+C:\Users\williams.x\Desktop\SilkyFlow\SilkyFlow\obj\Debug\net6.0-windows\SilkyFlow.Form2.resources
