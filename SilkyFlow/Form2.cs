@@ -12,9 +12,11 @@ namespace SilkyFlow
 {
     public partial class Form2 : Form
     {
+  
         public Form2()
         {
             InitializeComponent();
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -27,6 +29,17 @@ namespace SilkyFlow
             this.Close();
             Form1 f1 = new Form1();
             f1.Show();
+            
+        }
+        
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int lcv = 0;
+            lcv++;
+            if (lcv == 1)
+                textBox1.Visible = true;
+            else if (lcv == 2)
+                textBox2.Visible = true;
         }
     }
 }

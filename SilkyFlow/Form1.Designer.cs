@@ -68,7 +68,6 @@
             this.toolStripComboBox1.Name = "toolStripComboBox1";
             this.toolStripComboBox1.Size = new System.Drawing.Size(52, 20);
             this.toolStripComboBox1.Text = "Home";
-            this.toolStripComboBox1.Click += new System.EventHandler(this.toolStripComboBox1_Click_1);
             // 
             // toolStripMenuItem1
             // 

@@ -14,7 +14,8 @@ namespace SilkyFlow
 
         private void toolStripComboBox1_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            this.Show();
         }
 
         private void toolStripMenuItem2_Click(object sender, EventArgs e)
@@ -33,11 +34,7 @@ namespace SilkyFlow
              
             f2.Show();
             this.Hide();
-        }
 
-        private void toolStripComboBox1_Click_1(object sender, EventArgs e)
-        {
-            
         }
     }
 }
