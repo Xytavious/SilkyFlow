@@ -31,15 +31,32 @@ namespace SilkyFlow
             f1.Show();
             
         }
-        
+        int lcv = 0;
         private void button2_Click(object sender, EventArgs e)
         {
-            int lcv = 0;
             lcv++;
             if (lcv == 1)
                 textBox1.Visible = true;
             else if (lcv == 2)
                 textBox2.Visible = true;
+            else if (lcv == 3)
+                textBox3.Visible = true;
+            else if (lcv == 4)
+                textBox4.Visible = true;
+            else if (lcv == 5)
+                textBox5.Visible = true;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            // This will open just a little note pad ig 
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            label1.Visible = true;
+            textBox1.Visible = false;
+            label1.Text = "First Task: " + textBox1.Text + "\n\n" + "Second Task: " + textBox2.Text;
         }
     }
 }
