@@ -56,7 +56,7 @@ namespace SilkyFlow
         {
             label1.Visible = true;
             textBox1.Visible = false;
-            label1.Text = "First Task: " + textBox1.Text + "\n\n" + "Second Task: " + textBox2.Text;
+            label1.Text = "1: " + textBox1.Text + "\n\n" + "2: " + textBox2.Text;
         }
     }
 }
