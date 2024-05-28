@@ -36,5 +36,10 @@ namespace SilkyFlow
             this.Hide();
 
         }
+
+        private void userToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

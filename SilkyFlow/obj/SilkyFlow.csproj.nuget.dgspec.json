@@ -1,27 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\densonchil.n\\Desktop\\SilkyFlow\\SilkyFlow\\SilkyFlow.csproj": {}
+    "C:\\Users\\williams.x\\Documents\\GitHub\\SilkyFlow\\SilkyFlow\\SilkyFlow.csproj": {}
   },
   "projects": {
-    "C:\\Users\\densonchil.n\\Desktop\\SilkyFlow\\SilkyFlow\\SilkyFlow.csproj": {
+    "C:\\Users\\williams.x\\Documents\\GitHub\\SilkyFlow\\SilkyFlow\\SilkyFlow.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\densonchil.n\\Desktop\\SilkyFlow\\SilkyFlow\\SilkyFlow.csproj",
+        "projectUniqueName": "C:\\Users\\williams.x\\Documents\\GitHub\\SilkyFlow\\SilkyFlow\\SilkyFlow.csproj",
         "projectName": "SilkyFlow",
-        "projectPath": "C:\\Users\\densonchil.n\\Desktop\\SilkyFlow\\SilkyFlow\\SilkyFlow.csproj",
-        "packagesPath": "C:\\Users\\densonchil.n\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\densonchil.n\\Desktop\\SilkyFlow\\SilkyFlow\\obj\\",
+        "projectPath": "C:\\Users\\williams.x\\Documents\\GitHub\\SilkyFlow\\SilkyFlow\\SilkyFlow.csproj",
+        "packagesPath": "C:\\Users\\williams.x\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\williams.x\\Documents\\GitHub\\SilkyFlow\\SilkyFlow\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\densonchil.n\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\williams.x\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0-windows7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0-windows7.0": {
