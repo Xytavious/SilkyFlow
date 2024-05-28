@@ -50,6 +50,7 @@
             this.button9 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -65,17 +66,15 @@
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Location = new System.Drawing.Point(77, 98);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(732, 442);
+            this.panel1.Size = new System.Drawing.Size(732, 401);
             this.panel1.TabIndex = 7;
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(109, 3);
+            this.label1.Location = new System.Drawing.Point(3, 3);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(100, 429);
+            this.label1.Size = new System.Drawing.Size(100, 394);
             this.label1.TabIndex = 5;
-            this.label1.Text = "label1";
-            this.label1.Visible = false;
             // 
             // textBox5
             // 
@@ -172,7 +171,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(95, 70);
+            this.button2.Location = new System.Drawing.Point(93, 53);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(63, 24);
             this.button2.TabIndex = 9;
@@ -248,12 +247,22 @@
             this.button10.UseVisualStyleBackColor = true;
             this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(103, 80);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(64, 15);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Enter Tasks";
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MistyRose;
             this.ClientSize = new System.Drawing.Size(866, 573);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
@@ -269,6 +278,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form2";
             this.Text = "Form2";
+            this.Load += new System.EventHandler(this.Form2_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
@@ -301,5 +311,6 @@
         private Button button8;
         private Label label1;
         private Button button10;
+        private Label label2;
     }
 }
