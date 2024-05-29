@@ -34,42 +34,39 @@ namespace SilkyFlow
         int lcv = 0;
         private void button2_Click(object sender, EventArgs e)
         {
-            int set1 = 1;
-            int set2 = 2;
-            int set3 = 3;
-            int set4 = 4;
-            int set5 = 5;
+            textBox1.Visible = false; // This is weird work on this later, something is weird with the variables n stuff, if it isnt fixed its totally intentional
+            textBox2.Visible = false;
+            textBox3.Visible = false;
+            textBox4.Visible = false;
+            textBox5.Visible = false;
             label1.Visible = false;
             if (lcv >= 5)
                 lcv = 0;
             lcv++;
-            if (lcv == set1)
+            if (lcv == 1)
             {
                 textBox1.Visible = true;
-                set1++;
             }
                 
-            else if (lcv == set2)
+            else if (lcv == 2)
             {
                 textBox2.Visible = true;
-                set2++;
             }
                 
-            else if (lcv == set3)
+            else if (lcv == 3)
             {
                 textBox3.Visible = true;
             }
                 
-            else if (lcv == set4)
+            else if (lcv == 4)
             {
                 textBox4.Visible = true;
             }
                 
-            else if (lcv == set5)
+            else if (lcv == 5)
             {
                 textBox5.Visible = true;
             }
-                
         }
 
         private void button3_Click(object sender, EventArgs e)
