@@ -46,5 +46,17 @@ namespace SilkyFlow.Properties {
                 this["UserName"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string ProfilePic {
+            get {
+                return ((string)(this["ProfilePic"]));
+            }
+            set {
+                this["ProfilePic"] = value;
+            }
+        }
     }
 }
