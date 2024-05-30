@@ -21,5 +21,16 @@ namespace SilkyFlow
         {
 
         }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Properties.Settings.Default.UserName = textBox1.Text;
+            Properties.Settings.Default.Save();
+        }
     }
 }
