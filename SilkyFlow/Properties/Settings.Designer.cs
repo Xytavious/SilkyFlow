@@ -46,5 +46,89 @@ namespace SilkyFlow.Properties {
                 this["UserName"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string ProfilePic {
+            get {
+                return ((string)(this["ProfilePic"]));
+            }
+            set {
+                this["ProfilePic"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string label3 {
+            get {
+                return ((string)(this["label3"]));
+            }
+            set {
+                this["label3"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string label4 {
+            get {
+                return ((string)(this["label4"]));
+            }
+            set {
+                this["label4"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string label5 {
+            get {
+                return ((string)(this["label5"]));
+            }
+            set {
+                this["label5"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string label6 {
+            get {
+                return ((string)(this["label6"]));
+            }
+            set {
+                this["label6"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string label7 {
+            get {
+                return ((string)(this["label7"]));
+            }
+            set {
+                this["label7"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string label8 {
+            get {
+                return ((string)(this["label8"]));
+            }
+            set {
+                this["label8"] = value;
+            }
+        }
     }
 }
