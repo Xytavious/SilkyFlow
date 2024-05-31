@@ -124,5 +124,52 @@ namespace SilkyFlow
                 textBox10.Visible = true;
             
         }
+        int lcv3 = 0;
+        private void button5_Click(object sender, EventArgs e)
+        {
+            textBox11.Visible = false; // This is weird work on this later, something is weird with the variables n stuff, if it isnt fixed its totally intentional
+            textBox12.Visible = false;
+            textBox13.Visible = false;
+            textBox14.Visible = false;
+            textBox15.Visible = false;
+            label4.Visible = false;
+            if (lcv3 >= 5)
+                lcv3 = 0;
+            lcv3++;
+            if (lcv3 == 1)
+                textBox11.Visible = true;
+            else if (lcv3 == 2)
+                textBox12.Visible = true;
+            else if (lcv3 == 3)
+                textBox13.Visible = true;
+            else if (lcv3 == 4)
+                textBox14.Visible = true;
+            else if (lcv3 == 5)
+                textBox15.Visible = true;
+        }
+        int lcv4 = 0;
+        private void button6_Click(object sender, EventArgs e)
+        {
+            textBox6.Visible = false; // This is weird work on this later, something is weird with the variables n stuff, if it isnt fixed its totally intentional
+            textBox7.Visible = false;
+            textBox8.Visible = false;
+            textBox9.Visible = false;
+            textBox10.Visible = false;
+            label3.Visible = false;
+            if (lcv4 >= 5)
+                lcv4 = 0;
+            lcv4++;
+            if (lcv4 == 1)
+                textBox16.Visible = true;
+            else if (lcv4 == 2)
+                textBox17.Visible = true;
+            else if (lcv4 == 3)
+                textBox18.Visible = true;
+            else if (lcv4 == 4)
+                textBox19.Visible = true;
+            else if (lcv4 == 5)
+                textBox20.Visible = true;
+        }
+        public bool 
     }
 }
