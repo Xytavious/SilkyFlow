@@ -72,7 +72,19 @@ namespace SilkyFlow
             textBox1.Visible = false;
             label1.Text = "1: " + textBox1.Text + "\n\n" + "2: " + textBox2.Text + "\n\n" + "3: " + textBox3.Text + "\n\n" + "4: " + textBox4.Text + "\n\n" + "5: " + textBox5.Text;
             label3.Text = "1: " + textBox6.Text + "\n\n" + "2: " + textBox7.Text + "\n\n" + "3: " + textBox8.Text + "\n\n" + "4: " + textBox9.Text + "\n\n" + "5: " + textBox10.Text;
-            Properties.Settings.Default.label1 = label1.Text;
+            label4.Text = "1: " + textBox11.Text + "\n\n" + "2: " + textBox12.Text + "\n\n" + "3: " + textBox13.Text + "\n\n" + "4: " + textBox14.Text + "\n\n" + "5: " + textBox15.Text;
+            label5.Text = "1: " + textBox16.Text + "\n\n" + "2: " + textBox17.Text + "\n\n" + "3: " + textBox18.Text + "\n\n" + "4: " + textBox19.Text + "\n\n" + "5: " + textBox20.Text;
+            label6.Text = "1: " + textBox21.Text + "\n\n" + "2: " + textBox22.Text + "\n\n" + "3: " + textBox23.Text + "\n\n" + "4: " + textBox24.Text + "\n\n" + "5: " + textBox25.Text;
+            label7.Text = "1: " + textBox26.Text + "\n\n" + "2: " + textBox27.Text + "\n\n" + "3: " + textBox28.Text + "\n\n" + "4: " + textBox29.Text + "\n\n" + "5: " + textBox30.Text;
+            label8.Text = "1: " + textBox31.Text + "\n\n" + "2: " + textBox32.Text + "\n\n" + "3: " + textBox33.Text + "\n\n" + "4: " + textBox34.Text + "\n\n" + "5: " + textBox35.Text;
+
+            Properties.Settings.Default.label1 = label1.Text; // 2 doesnt exist because label2 already existed
+            Properties.Settings.Default.label3 = label3.Text;
+            Properties.Settings.Default.label4 = label4.Text;
+            Properties.Settings.Default.label5 = label5.Text;
+            Properties.Settings.Default.label6 = label6.Text;
+            Properties.Settings.Default.label7 = label7.Text;
+            Properties.Settings.Default.label8 = label8.Text;
             Properties.Settings.Default.Save();
 
         }
