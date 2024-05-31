@@ -555,9 +555,9 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(94, 53);
+            this.button2.Location = new System.Drawing.Point(95, 65);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(63, 24);
+            this.button2.Size = new System.Drawing.Size(70, 27);
             this.button2.TabIndex = 9;
             this.button2.Text = "Sunday";
             this.button2.UseVisualStyleBackColor = true;
@@ -575,9 +575,9 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(219, 65);
+            this.button4.Location = new System.Drawing.Point(209, 65);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(69, 21);
+            this.button4.Size = new System.Drawing.Size(79, 27);
             this.button4.TabIndex = 11;
             this.button4.Text = "Monday";
             this.button4.UseVisualStyleBackColor = true;
@@ -603,7 +603,7 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(530, 65);
+            this.button7.Location = new System.Drawing.Point(636, 65);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(79, 27);
             this.button7.TabIndex = 14;
@@ -612,18 +612,18 @@
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(735, 71);
+            this.button9.Location = new System.Drawing.Point(742, 65);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(69, 21);
+            this.button9.Size = new System.Drawing.Size(79, 27);
             this.button9.TabIndex = 16;
             this.button9.Text = "Saturday";
             this.button9.UseVisualStyleBackColor = true;
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(646, 71);
+            this.button8.Location = new System.Drawing.Point(530, 65);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(69, 21);
+            this.button8.Size = new System.Drawing.Size(79, 27);
             this.button8.TabIndex = 15;
             this.button8.Text = "Friday";
             this.button8.UseVisualStyleBackColor = true;
@@ -641,7 +641,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(93, 80);
+            this.label2.Location = new System.Drawing.Point(12, 77);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(64, 15);
             this.label2.TabIndex = 6;

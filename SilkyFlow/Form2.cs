@@ -71,7 +71,7 @@ namespace SilkyFlow
             label8.Visible = true;
             textBox1.Visible = false;
             label1.Text = "1: " + textBox1.Text + "\n\n" + "2: " + textBox2.Text + "\n\n" + "3: " + textBox3.Text + "\n\n" + "4: " + textBox4.Text + "\n\n" + "5: " + textBox5.Text;
-
+            label3.Text = "1: " + textBox6.Text + "\n\n" + "2: " + textBox7.Text + "\n\n" + "3: " + textBox8.Text + "\n\n" + "4: " + textBox9.Text + "\n\n" + "5: " + textBox10.Text;
             Properties.Settings.Default.label1 = label1.Text;
             Properties.Settings.Default.Save();
 
