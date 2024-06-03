@@ -145,7 +145,7 @@
             // 
             // label8
             // 
-            this.label8.Location = new System.Drawing.Point(644, 3);
+            this.label8.Location = new System.Drawing.Point(644, 1);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(100, 394);
             this.label8.TabIndex = 43;
@@ -607,12 +607,13 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(627, 65);
+            this.button7.Location = new System.Drawing.Point(530, 65);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(79, 27);
             this.button7.TabIndex = 14;
             this.button7.Text = "Thursday";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button9
             // 
@@ -622,15 +623,17 @@
             this.button9.TabIndex = 16;
             this.button9.Text = "Saturday";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(519, 65);
+            this.button8.Location = new System.Drawing.Point(636, 65);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(79, 27);
             this.button8.TabIndex = 15;
             this.button8.Text = "Friday";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button10
             // 

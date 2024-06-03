@@ -48,9 +48,9 @@ namespace SilkyFlow
             else if (lcv == 2)
                 textBox2.Visible = true;
             else if (lcv == 3)
-                textBox3.Visible = true;  
+                textBox3.Visible = true;
             else if (lcv == 4)
-                textBox4.Visible = true;     
+                textBox4.Visible = true;
             else if (lcv == 5)
                 textBox5.Visible = true;
         }
@@ -150,12 +150,12 @@ namespace SilkyFlow
         int lcv4 = 0;
         private void button6_Click(object sender, EventArgs e)
         {
-            textBox6.Visible = false; // This is weird work on this later, something is weird with the variables n stuff, if it isnt fixed its totally intentional
-            textBox7.Visible = false;
-            textBox8.Visible = false;
-            textBox9.Visible = false;
-            textBox10.Visible = false;
-            label3.Visible = false;
+            textBox16.Visible = false; // This is weird work on this later, something is weird with the variables n stuff, if it isnt fixed its totally intentional
+            textBox17.Visible = false;
+            textBox18.Visible = false;
+            textBox19.Visible = false;
+            textBox20.Visible = false;
+            label5.Visible = false;
             if (lcv4 >= 5)
                 lcv4 = 0;
             lcv4++;
@@ -170,6 +170,77 @@ namespace SilkyFlow
             else if (lcv4 == 5)
                 textBox20.Visible = true;
         }
+        int lcv5 = 0;
+        int lcv6 = 0;
         
+        private void button7_Click(object sender, EventArgs e)
+        {
+            textBox21.Visible = false; // This is weird work on this later, something is weird with the variables n stuff, if it isnt fixed its totally intentional
+            textBox22.Visible = false;
+            textBox23.Visible = false;
+            textBox24.Visible = false;
+            textBox25.Visible = false;
+            label6.Visible = false;
+            if (lcv5 >= 5)
+                lcv5 = 0;
+            lcv5++;
+            if (lcv5 == 1)
+                textBox21.Visible = true;
+            else if (lcv5 == 2)
+                textBox22.Visible = true;
+            else if (lcv5 == 3)
+                textBox23.Visible = true;
+            else if (lcv5 == 4)
+                textBox24.Visible = true;
+            else if (lcv5 == 5)
+                textBox25.Visible = true;
+        }
+        private void button8_Click(object sender, EventArgs e)
+        {
+            textBox26.Visible = false; // This is weird work on this later, something is weird with the variables n stuff, if it isnt fixed its totally intentional
+            textBox27.Visible = false;
+            textBox28.Visible = false;
+            textBox29.Visible = false;
+            textBox30.Visible = false;
+            label7.Visible = false;
+            if (lcv6 >= 5)
+                lcv6 = 0;
+            lcv6++;
+            if (lcv6 == 1)
+                textBox26.Visible = true;
+            else if (lcv6 == 2)
+                textBox27.Visible = true;
+            else if (lcv6 == 3)
+                textBox28.Visible = true;
+            else if (lcv6 == 4)
+                textBox29.Visible = true;
+            else if (lcv6 == 5)
+                textBox30.Visible = true;
+        }
+        int lcv7 = 0;
+        private void button9_Click(object sender, EventArgs e)
+        {
+            textBox31.Visible = false; // This is weird work on this later, something is weird with the variables n stuff, if it isnt fixed its totally intentional
+            textBox32.Visible = false;
+            textBox33.Visible = false;
+            textBox34.Visible = false;
+            textBox35.Visible = false;
+            label7.Visible = false;
+            if (lcv7 >= 5)
+                lcv7 = 0;
+            lcv7++;
+            
+            if (lcv7 == 1)
+                textBox31.Visible = true;
+            else if (lcv7 == 2)
+                textBox32.Visible = true;
+            else if (lcv7 == 3)
+                textBox33.Visible = true;
+            else if (lcv7 == 4)
+                textBox34.Visible = true;
+            else if (lcv7 == 5)
+                textBox35.Visible = true;
+
+        }
     }
 }
