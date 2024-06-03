@@ -5,7 +5,7 @@
     <Setting Name="label1" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
-    <Setting Name="UserName" Type="System.String" Scope="User">
+    <Setting Name="UserName1" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
     <Setting Name="ProfilePic" Type="System.String" Scope="User">
@@ -27,6 +27,9 @@
       <Value Profile="(Default)" />
     </Setting>
     <Setting Name="label8" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="UserName2" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
   </Settings>

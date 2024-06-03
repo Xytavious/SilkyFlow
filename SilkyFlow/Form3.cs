@@ -24,15 +24,23 @@ namespace SilkyFlow
 
         private void Form3_Load(object sender, EventArgs e)
         {
-
+            pictureBox1.Image = GetImage(Properties.Settings.Default.ProfilePic);
+            textBox1.Text = Properties.Settings.Default.UserName1;
+            textBox2.Text = Properties.Settings.Default.UserName2;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Properties.Settings.Default.UserName = textBox1.Text;
+            string name = textBox1.Text + textBox2.Text;
+            Properties.Settings.Default.UserName1 = textBox1.Text;
+            Properties.Settings.Default.UserName2 = textBox2.Text;
+
+            
+
             string pfp = ConvImgToB64(pictureBox1.Image);
             Properties.Settings.Default.ProfilePic = pfp;
             Properties.Settings.Default.Save();
+
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -63,19 +71,31 @@ namespace SilkyFlow
 
         private void button2_Click(object sender, EventArgs e)
         {
-            OpenFileDialog theDialog = new OpenFileDialog();
-            theDialog.Title = "Open Text File";
-            theDialog.Filter = "TXT files|*.txt";
-            theDialog.InitialDirectory = @"C:\";
-            if (theDialog.ShowDialog() == DialogResult.OK)
+           
+            using (OpenFileDialog openFileDialog = new OpenFileDialog())
             {
-                MessageBox.Show(theDialog.FileName.ToString());
+                openFileDialog.Filter = "Image|*.png;*.jpg;*.bmp;*.gif";
+                if (openFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    pictureBox1.Image = Image.FromFile(@openFileDialog.FileName);
+                    string pfp = ConvImgToB64(pictureBox1.Image);
+                    Properties.Settings.Default.ProfilePic = pfp;
+                    Properties.Settings.Default.Save();
+                }
+
             }
         }
 
         private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
         {
 
+        }
+
+        private void toolStripComboBox1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Form1 f1 = new Form1();
+            f1.Show();
         }
     }
 }

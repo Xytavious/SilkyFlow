@@ -170,6 +170,6 @@ namespace SilkyFlow
             else if (lcv4 == 5)
                 textBox20.Visible = true;
         }
-        public bool 
+        
     }
 }
