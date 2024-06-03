@@ -39,10 +39,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -135,6 +136,17 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "User Info";
             // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Comic Sans MS", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button2.Location = new System.Drawing.Point(216, 59);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(73, 23);
+            this.button2.TabIndex = 7;
+            this.button2.Text = "Upload Image";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
@@ -162,16 +174,10 @@
             this.label2.TabIndex = 5;
             this.label2.Text = "Last Name:";
             // 
-            // button2
+            // openFileDialog1
             // 
-            this.button2.Font = new System.Drawing.Font("Comic Sans MS", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(216, 59);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(73, 23);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "Upload Image";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.openFileDialog1.FileName = "openFileDialog1";
+            this.openFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog1_FileOk);
             // 
             // Form3
             // 
@@ -211,5 +217,6 @@
         private TextBox textBox2;
         private Label label2;
         private Button button2;
+        private OpenFileDialog openFileDialog1;
     }
 }
