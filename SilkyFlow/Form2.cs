@@ -48,9 +48,9 @@ namespace SilkyFlow
             else if (lcv == 2)
                 textBox2.Visible = true;
             else if (lcv == 3)
-                textBox3.Visible = true;  
+                textBox3.Visible = true;
             else if (lcv == 4)
-                textBox4.Visible = true;     
+                textBox4.Visible = true;
             else if (lcv == 5)
                 textBox5.Visible = true;
         }
@@ -150,12 +150,12 @@ namespace SilkyFlow
         int lcv4 = 0;
         private void button6_Click(object sender, EventArgs e)
         {
-            textBox6.Visible = false; // This is weird work on this later, something is weird with the variables n stuff, if it isnt fixed its totally intentional
-            textBox7.Visible = false;
-            textBox8.Visible = false;
-            textBox9.Visible = false;
-            textBox10.Visible = false;
-            label3.Visible = false;
+            textBox16.Visible = false; // This is weird work on this later, something is weird with the variables n stuff, if it isnt fixed its totally intentional
+            textBox17.Visible = false;
+            textBox18.Visible = false;
+            textBox19.Visible = false;
+            textBox20.Visible = false;
+            label5.Visible = false;
             if (lcv4 >= 5)
                 lcv4 = 0;
             lcv4++;
