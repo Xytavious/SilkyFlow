@@ -27,6 +27,8 @@ namespace SilkyFlow
             pictureBox1.Image = Form1.GetImage(Properties.Settings.Default.ProfilePic);
             textBox1.Text = Properties.Settings.Default.UserName1;
             textBox2.Text = Properties.Settings.Default.UserName2;
+            userToolStripMenuItem.Text = "User:" + Properties.Settings.Default.UserName1;
+            userToolStripMenuItem.Image = Form1.GetImage(Properties.Settings.Default.ProfilePic);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -58,6 +60,8 @@ namespace SilkyFlow
             return base64;
         }
 
+
+
         private void button2_Click(object sender, EventArgs e)
         {
            
@@ -85,6 +89,16 @@ namespace SilkyFlow
             this.Close();
             Form1 f1 = new Form1();
             f1.Show();
+        }
+
+        private void userToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
