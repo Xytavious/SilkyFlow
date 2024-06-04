@@ -99,6 +99,8 @@ namespace SilkyFlow
             label7.Visible = true;
             label8.Visible = true;
             label1.Text = Properties.Settings.Default.label1;
+            toolStripMenuItem1.Text = "User: " + Properties.Settings.Default.UserName1;
+            toolStripMenuItem1.Image = Form1.GetImage(Properties.Settings.Default.ProfilePic);
         }
         int lcv2 = 0;
         private void button4_Click(object sender, EventArgs e)
@@ -240,6 +242,20 @@ namespace SilkyFlow
             else if (lcv7 == 5)
                 textBox35.Visible = true;
 
+        }
+
+        private void toolStripComboBox1_Click_1(object sender, EventArgs e)
+        {
+            Form1 f1 = new Form1();
+            this.Hide();
+            f1.Show();
+        }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Form3 f3 = new Form3();
+            this.Hide();
+            f3.Show();
         }
     }
 }

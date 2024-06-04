@@ -31,7 +31,7 @@ namespace SilkyFlow
         private void button1_Click(object sender, EventArgs e)
         {
             Form2 f2 = new Form2();
-
+             
             f2.Show();
             this.Hide();
 
@@ -46,19 +46,14 @@ namespace SilkyFlow
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            pictureBox1.Image = Form1.GetImage(Properties.Settings.Default.ProfilePic);
-            label3.Text = Properties.Settings.Default.UserName1;
-            label4.Text = Properties.Settings.Default.UserName2;
-            userToolStripMenuItem.Text = "User:" + Properties.Settings.Default.UserName1;
-            userToolStripMenuItem.Image = Form1.GetImage(Properties.Settings.Default.ProfilePic);
-
+            pictureBox1.Image = GetImage(Properties.Settings.Default.ProfilePic);
         }
         public static Image GetImage(string value)
         {
             byte[] bytes = Convert.FromBase64String(value);
             Image image;
             try
-            { 
+            {
                 using (MemoryStream ms = new MemoryStream(bytes))
                 {
                     image = Image.FromStream(ms);
@@ -68,7 +63,6 @@ namespace SilkyFlow
             {
                 return null;
             }
-
         }
 
         private void label3_Click(object sender, EventArgs e)
