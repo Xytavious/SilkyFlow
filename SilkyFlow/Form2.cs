@@ -229,7 +229,6 @@ namespace SilkyFlow
             if (lcv7 >= 5)
                 lcv7 = 0;
             lcv7++;
-            
             if (lcv7 == 1)
                 textBox31.Visible = true;
             else if (lcv7 == 2)
