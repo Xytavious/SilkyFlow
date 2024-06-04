@@ -43,5 +43,20 @@ namespace SilkyFlow
             this.Hide();
             f3.Show();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            pictureBox1.Image = GetImage(Properties.Settings.Default.ProfilePic);
+        }
+        public Image GetImage(string value)
+        {
+            byte[] bytes = Convert.FromBase64String(value);
+            Image image;
+            using (MemoryStream ms = new MemoryStream(bytes))
+            {
+                image = Image.FromStream(ms);
+            }
+            return image;
+        }
     }
 }

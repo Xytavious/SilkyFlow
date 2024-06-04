@@ -38,12 +38,12 @@ namespace SilkyFlow.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string UserName {
+        public string UserName1 {
             get {
-                return ((string)(this["UserName"]));
+                return ((string)(this["UserName1"]));
             }
             set {
-                this["UserName"] = value;
+                this["UserName1"] = value;
             }
         }
         
@@ -128,6 +128,18 @@ namespace SilkyFlow.Properties {
             }
             set {
                 this["label8"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string UserName2 {
+            get {
+                return ((string)(this["UserName2"]));
+            }
+            set {
+                this["UserName2"] = value;
             }
         }
     }
