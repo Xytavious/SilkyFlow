@@ -48,15 +48,21 @@ namespace SilkyFlow
         {
             pictureBox1.Image = GetImage(Properties.Settings.Default.ProfilePic);
         }
-        public Image GetImage(string value)
+        public static Image GetImage(string value)
         {
             byte[] bytes = Convert.FromBase64String(value);
             Image image;
-            using (MemoryStream ms = new MemoryStream(bytes))
+            try
             {
-                image = Image.FromStream(ms);
+                using (MemoryStream ms = new MemoryStream(bytes))
+                {
+                    image = Image.FromStream(ms);
+                }
+                return image;
+            } catch (Exception ex)
+            {
+                return null;
             }
-            return image;
         }
 
         private void label3_Click(object sender, EventArgs e)

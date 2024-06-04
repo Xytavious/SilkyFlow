@@ -24,7 +24,7 @@ namespace SilkyFlow
 
         private void Form3_Load(object sender, EventArgs e)
         {
-            pictureBox1.Image = GetImage(Properties.Settings.Default.ProfilePic);
+            pictureBox1.Image = Form1.GetImage(Properties.Settings.Default.ProfilePic);
             textBox1.Text = Properties.Settings.Default.UserName1;
             textBox2.Text = Properties.Settings.Default.UserName2;
         }
@@ -56,17 +56,6 @@ namespace SilkyFlow
                 base64 = Convert.ToBase64String(ms.ToArray());
             }
             return base64;
-        }
-
-        public Image GetImage(string value)
-        {
-            byte[] bytes = Convert.FromBase64String(value);
-            Image image;
-            using (MemoryStream ms = new MemoryStream(bytes))
-            {
-                image = Image.FromStream(ms);
-            }
-            return image;
         }
 
         private void button2_Click(object sender, EventArgs e)
