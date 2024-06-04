@@ -145,7 +145,7 @@
             // 
             // label8
             // 
-            this.label8.Location = new System.Drawing.Point(644, 1);
+            this.label8.Location = new System.Drawing.Point(644, 3);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(100, 394);
             this.label8.TabIndex = 43;
@@ -669,7 +669,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MistyRose;
-            this.ClientSize = new System.Drawing.Size(866, 503);
+            this.ClientSize = new System.Drawing.Size(866, 523);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
