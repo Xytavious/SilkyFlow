@@ -129,10 +129,11 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(94, 71);
+            this.textBox3.Location = new System.Drawing.Point(104, 74);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(34, 23);
             this.textBox3.TabIndex = 9;
+            this.textBox3.Visible = false;
             // 
             // label3
             // 
@@ -142,6 +143,7 @@
             this.label3.Size = new System.Drawing.Size(31, 15);
             this.label3.TabIndex = 8;
             this.label3.Text = "Age:";
+            this.label3.Visible = false;
             // 
             // button2
             // 
