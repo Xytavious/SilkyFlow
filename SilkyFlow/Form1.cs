@@ -46,7 +46,11 @@ namespace SilkyFlow
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            pictureBox1.Image = GetImage(Properties.Settings.Default.ProfilePic);
+            pictureBox1.Image = Form1.GetImage(Properties.Settings.Default.ProfilePic);
+            label3.Text = Properties.Settings.Default.UserName1;
+            label4.Text = Properties.Settings.Default.UserName2;
+            userToolStripMenuItem.Text = "User:" + Properties.Settings.Default.UserName1;
+            userToolStripMenuItem.Image = Form1.GetImage(Properties.Settings.Default.ProfilePic);
         }
         public static Image GetImage(string value)
         {
