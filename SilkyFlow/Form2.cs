@@ -34,11 +34,7 @@ namespace SilkyFlow
         int lcv = 0;
         private void button2_Click(object sender, EventArgs e)
         {
-            textBox1.Visible = false; // This is weird work on this later, something is weird with the variables n stuff, if it isnt fixed its totally intentional
-            textBox2.Visible = false;
-            textBox3.Visible = false;
-            textBox4.Visible = false;
-            textBox5.Visible = false;
+            
             label1.Visible = false;
             if (lcv >= 5)
                 lcv = 0;
@@ -99,17 +95,22 @@ namespace SilkyFlow
             label7.Visible = true;
             label8.Visible = true;
             label1.Text = Properties.Settings.Default.label1;
+            label3.Text = Properties.Settings.Default.label3;
+            label4.Text = Properties.Settings.Default.label4;
+            label5.Text = Properties.Settings.Default.label5;
+            label6.Text = Properties.Settings.Default.label6;
+            label7.Text = Properties.Settings.Default.label7;
+            label8.Text = Properties.Settings.Default.label8;
             toolStripMenuItem1.Text = "User: " + Properties.Settings.Default.UserName1;
             toolStripMenuItem1.Image = Form1.GetImage(Properties.Settings.Default.ProfilePic);
+            label9.Text = Properties.Settings.Default.UserName1;
+            label10.Text = Properties.Settings.Default.UserName2;
+
         }
         int lcv2 = 0;
         private void button4_Click(object sender, EventArgs e)
         {
-            textBox6.Visible = false; // This is weird work on this later, something is weird with the variables n stuff, if it isnt fixed its totally intentional
-            textBox7.Visible = false;
-            textBox8.Visible = false;
-            textBox9.Visible = false;
-            textBox10.Visible = false;
+            
             label3.Visible = false;
             if (lcv2 >= 5)
                 lcv2 = 0;
@@ -129,11 +130,7 @@ namespace SilkyFlow
         int lcv3 = 0;
         private void button5_Click(object sender, EventArgs e)
         {
-            textBox11.Visible = false; // This is weird work on this later, something is weird with the variables n stuff, if it isnt fixed its totally intentional
-            textBox12.Visible = false;
-            textBox13.Visible = false;
-            textBox14.Visible = false;
-            textBox15.Visible = false;
+            
             label4.Visible = false;
             if (lcv3 >= 5)
                 lcv3 = 0;
@@ -152,11 +149,7 @@ namespace SilkyFlow
         int lcv4 = 0;
         private void button6_Click(object sender, EventArgs e)
         {
-            textBox16.Visible = false; // This is weird work on this later, something is weird with the variables n stuff, if it isnt fixed its totally intentional
-            textBox17.Visible = false;
-            textBox18.Visible = false;
-            textBox19.Visible = false;
-            textBox20.Visible = false;
+            
             label5.Visible = false;
             if (lcv4 >= 5)
                 lcv4 = 0;
@@ -177,11 +170,7 @@ namespace SilkyFlow
         
         private void button7_Click(object sender, EventArgs e)
         {
-            textBox21.Visible = false; // This is weird work on this later, something is weird with the variables n stuff, if it isnt fixed its totally intentional
-            textBox22.Visible = false;
-            textBox23.Visible = false;
-            textBox24.Visible = false;
-            textBox25.Visible = false;
+            
             label6.Visible = false;
             if (lcv5 >= 5)
                 lcv5 = 0;
@@ -199,11 +188,7 @@ namespace SilkyFlow
         }
         private void button8_Click(object sender, EventArgs e)
         {
-            textBox26.Visible = false; // This is weird work on this later, something is weird with the variables n stuff, if it isnt fixed its totally intentional
-            textBox27.Visible = false;
-            textBox28.Visible = false;
-            textBox29.Visible = false;
-            textBox30.Visible = false;
+            
             label7.Visible = false;
             if (lcv6 >= 5)
                 lcv6 = 0;
@@ -222,13 +207,9 @@ namespace SilkyFlow
         int lcv7 = 0;
         private void button9_Click(object sender, EventArgs e)
         {
-            textBox31.Visible = false; // This is weird work on this later, something is weird with the variables n stuff, if it isnt fixed its totally intentional
-            textBox32.Visible = false;
-            textBox33.Visible = false;
-            textBox34.Visible = false;
-            textBox35.Visible = false;
-            label7.Visible = false;
-            if (lcv7 >= 5)
+            
+            label8.Visible = false;
+            if (lcv7 == 6)
                 lcv7 = 0;
             lcv7++;
             if (lcv7 == 1)
@@ -241,6 +222,7 @@ namespace SilkyFlow
                 textBox34.Visible = true;
             else if (lcv7 == 5)
                 textBox35.Visible = true;
+             
 
         }
 
@@ -256,6 +238,108 @@ namespace SilkyFlow
             Form3 f3 = new Form3();
             this.Hide();
             f3.Show();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            label1.Visible = false;
+            label3.Visible = false;
+            label4.Visible = false;
+            label5.Visible = false;
+            label6.Visible = false;
+            label7.Visible = false;
+            label8.Visible = false;
+            textBox1.Visible = true;
+            textBox2.Visible = true;
+            textBox3.Visible = true;
+            textBox4.Visible = true;
+            textBox5.Visible = true;
+            textBox26.Visible = true; 
+            textBox27.Visible = true;
+            textBox28.Visible = true;
+            textBox29.Visible = true;
+            textBox30.Visible = true;
+            textBox31.Visible = true; 
+            textBox32.Visible = true;
+            textBox33.Visible = true;
+            textBox34.Visible = true;
+            textBox35.Visible = true;
+            textBox21.Visible = true;
+            textBox22.Visible = true;
+            textBox23.Visible = true;
+            textBox24.Visible = true;
+            textBox25.Visible = true;
+            textBox6.Visible = true;
+            textBox7.Visible = true;
+            textBox8.Visible = true;
+            textBox9.Visible = true;
+            textBox10.Visible = true;
+            textBox11.Visible = true; 
+            textBox12.Visible = true;
+            textBox13.Visible = true;
+            textBox14.Visible = true;
+            textBox15.Visible = true;
+            textBox16.Visible = true; // This is weird work on this later, something is weird with the variables n stuff, if it isnt fixed its totally intentional
+            textBox17.Visible = true;
+            textBox18.Visible = true;
+            textBox19.Visible = true;
+            textBox20.Visible = true;
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            label1.Visible = true;
+            label3.Visible = true;
+            label4.Visible = true;
+            label5.Visible = true;
+            label6.Visible = true;
+            label7.Visible = true;
+            label8.Visible = true;
+            textBox1.Visible = false;
+            textBox2.Visible = false;
+            textBox3.Visible = false;
+            textBox4.Visible = false;
+            textBox5.Visible = false;
+            textBox26.Visible = false;
+            textBox27.Visible = false;
+            textBox28.Visible = false;
+            textBox29.Visible = false;
+            textBox30.Visible = false;
+            textBox31.Visible = false;
+            textBox32.Visible = false;
+            textBox33.Visible = false;
+            textBox34.Visible = false;
+            textBox35.Visible = false;
+            textBox21.Visible = false;
+            textBox22.Visible = false;
+            textBox23.Visible = false;
+            textBox24.Visible = false;
+            textBox25.Visible = false;
+            textBox6.Visible = false;
+            textBox7.Visible = false;
+            textBox8.Visible = false;
+            textBox9.Visible = false;
+            textBox10.Visible = false;
+            textBox11.Visible = false;
+            textBox12.Visible = false;
+            textBox13.Visible = false;
+            textBox14.Visible = false;
+            textBox15.Visible = false;
+            textBox16.Visible = false; // This is weird work on this later, something is weird with the variables n stuff, if it isnt fixed its totally intentional
+            textBox17.Visible = false;
+            textBox18.Visible = false;
+            textBox19.Visible = false;
+            textBox20.Visible = false;
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
